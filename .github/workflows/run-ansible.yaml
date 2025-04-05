@@ -59,7 +59,7 @@ jobs:
                 name: nginx
                 state: started
                 enabled: yes
-            EOF
+          EOF
       - name: Run Ansible Playbooks
         working-directory: ./devops/ansible/
         run: |
