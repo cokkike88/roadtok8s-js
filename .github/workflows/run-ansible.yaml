@@ -43,7 +43,7 @@ jobs:
           ansible all -m ping
       - name: Create Playbooks
         run: |
-          mkdir -p ./devops/ansible/
+#          mkdir -p ./devops/ansible/
           cat <<EOF > ./devops/ansible/install-nginx.yaml
           - name: Install NGINX
             hosts: all
